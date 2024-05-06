@@ -10,14 +10,16 @@ Final project for Visual Programming Course
 6. Salma Essam
 
 ## TODO
-- [X] Initial Main Menu GUI design
-- [X] Initial Chat GUI design
-- [ ] Initial Login GUI design
-- [ ] Main Menu GUI implementation
-- [ ] Chat GUI implementation
-- [ ] Login GUI implementation
-- [ ] CLI Chat implementation
-- [ ] GUI Chat implementation
+- [X] Initial Main Menu GUI design (Mohamed)
+- [X] Initial Chat GUI design (Mohamed)
+- [X] Initial Login GUI design (Mohamed)
+- [ ] Initial Settings GUI design (Mohamed)
+- [ ] Main Menu GUI implementation (Lobna)
+- [ ] Chat GUI implementation (Salma)
+- [ ] Login GUI implementation (Farah)
+- [X] Initial CLI Chat implementation (Omar)
+- [ ] CLI Chat implementation (Omar)
+- [ ] GUI Chat functionality implementation (Mazen)
 
 ## Maybe later
-- [ ] Add ai api
+- [ ] Add ai api (Omar)
