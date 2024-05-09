@@ -1,6 +1,9 @@
 # saleni
 Final project for Visual Programming Course
 
+## Notes
+* Compile using `javac -cp ../lib/Ab.jar:. Main.java` then run using `java -cp ../lib/Ab.jar:. Main`
+
 ## Team Members
 1. Omar Mohamed Mahmoud
 2. Mohamed Osama Abdelaziz
