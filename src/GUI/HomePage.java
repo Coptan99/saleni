@@ -1,5 +1,8 @@
 package GUI;
+import GUI.LoginPage;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Image;
@@ -22,6 +25,15 @@ public class HomePage {
         frame.setTitle("Saleni Chatbot");
         frame.setVisible(true);
         Font font = new Font("verdana", Font.BOLD, 15);
+
+        // Create ActionListener object for login button
+        ActionListener loginAction = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                LoginPage loginPage = new LoginPage();
+                loginPage.setVisible(true);
+            }
+        };
 
         // User acc button
         JButton but1 = new JButton(" ");
@@ -50,6 +62,7 @@ public class HomePage {
         login.setForeground(Color.ORANGE);
         login.setFont(font);
         frame.add(login);
+        login.addActionListener(loginAction);
 
         // Start button
         JButton start = new JButton("Let's start chatting");

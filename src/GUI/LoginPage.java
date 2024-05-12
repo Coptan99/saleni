@@ -78,6 +78,9 @@ public class LoginPage {
         registerButton.setBackground(Color.BLACK);
         registerButton.setForeground(Color.ORANGE);
         frame.add(registerButton);
+
+        // Why the hell are you needed to run?
+        public void setVisible(boolean b) {}
     }
 }
 
