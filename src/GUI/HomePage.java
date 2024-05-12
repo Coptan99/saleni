@@ -1,5 +1,6 @@
 package GUI;
 import GUI.LoginPage;
+import GUI.ClientChat;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

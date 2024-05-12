@@ -1,9 +1,11 @@
 import GUI.HomePage;
+import GUI.ClientChat;
 // import org.alicebot.ab.*;
 
 public class Main {
     public static void main(String[] args) {
-        HomePage homepage = new HomePage();
+        // HomePage homepage = new HomePage();
+        ClientChat clientChat = new ClientChat();
     }
 }
 
