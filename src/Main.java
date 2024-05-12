@@ -3,7 +3,9 @@ import GUI.LoginPage;
 
 public class Main {
     public static void main(String[] args) {
+        // Noob way until I handle eventlisteners
         HomePage homepage = new HomePage();
+        LoginPage loginpage = new LoginPage();
     }
 }
 
